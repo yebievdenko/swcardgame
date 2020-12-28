@@ -1,0 +1,33 @@
+.App {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.VerticalContainer {
+    height: 50%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+
+.Winner {
+    background-color: green;
+}
+
+.Select {
+    width: 70%;
+}
+
+.HorizontalContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
